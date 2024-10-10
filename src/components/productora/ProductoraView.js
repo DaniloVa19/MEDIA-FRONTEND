@@ -160,6 +160,7 @@ const ProductoraView = () => {
                             return <tr>
                                 <th scope='row'> {index + 1}</th>
                                 <td>{productora.nombre}</td>
+                                <td>{productora.slogan}</td>
                                 <td>{productora.descripcion}</td>
                                 <td>{productora.estado}</td>
                                 <td>{moment(productora.fechaCreacion).format('DD-MM-YYYY HH:mm')}</td>
