@@ -96,7 +96,7 @@ const ProductoraView = () => {
     const handleElimnarProductora = async (e, productora) => {
         e.preventDefault();
 
-        eliminarProductoraPorId(productora._id);
+        eliminarProductoraSeleccionado(productora._id);
     };
 
 
