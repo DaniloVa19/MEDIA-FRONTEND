@@ -77,7 +77,7 @@ const ProductoraView = () => {
             Swal.showLoading();
 
 
-            await eliminarProductoraSeleccionado(e);
+            await eliminarProductoraPorId(e);
 
 
 
