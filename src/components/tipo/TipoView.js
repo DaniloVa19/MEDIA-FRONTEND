@@ -77,7 +77,7 @@ const TipoView = () => {
             Swal.showLoading();
 
 
-            await eliminarTipoSeleccionado(e);
+            await eliminarTipoPorId(e);
 
 
 
@@ -96,7 +96,7 @@ const TipoView = () => {
     const handleElimnarTipo = async (e, tipo) => {
         e.preventDefault();
 
-        eliminarTipoPorId(tipo._id);
+        eliminarTipoSeleccionado(tipo._id);
     };
 
     return (
