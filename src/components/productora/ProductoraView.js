@@ -122,7 +122,7 @@ const ProductoraView = () => {
                     <div className="col-lg-4">
                         <div className="mb-3">
                             <label className="form-label">Descripcion</label>
-                            <input required name='descripcion' value={slogan} type="text" className="form-control"
+                            <input required name='descripcion' value={descripcion} type="text" className="form-control"
                                 onChange={(e) => handleOnChange(e)} />
                         </div>
                     </div>
