@@ -19,7 +19,7 @@ const MediaCard = (props) => {
                     <p className="card-text">
                         {`Director: ${media.director.nombre}`}</p>
                     <p className="card-text">
-                        {`Productora: ${media.director.nombre}`}</p>
+                        {`Productora: ${media.productora.nombre}`}</p>
                     <p className="card-text">
                         {`Tipo: ${media.tipo.nombre}`}</p>
                     <p className="card-text">
