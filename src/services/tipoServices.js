@@ -28,7 +28,7 @@ const actualizarTipo = (tipoId,data) => {
 }
 
 const eliminarTipoPorId = (tipoId,data) => {
-    return axiosInstance.delete(`tipoId/${tipoId}`, data,{
+    return axiosInstance.delete(`tipo/${tipoId}`, data,{
         header: {
             'Content-Type': 'applicaction/json'
 
